@@ -93,6 +93,15 @@
   left: 22px;
   top: 204px;
 }
+
+.hero:hover {
+  width: 1376px;
+  height: 547px;
+  position: absolute;
+  left: 22px;
+  top: 204px;
+  filter: drop-shadow( 0px 0px 4px)
+}
 .image-box {
   width: 450px;
   height: 547px;
@@ -190,6 +199,34 @@
   object-fit: cover;
   aspect-ratio: 1;
 }
+.text {
+  color: #00000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  font-style: italic;
+  position: relative;
+  width: 125px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text:hover {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  font-style: italic;
+  position: relative;
+  width: 125px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .inicio-button {
   flex-shrink: 0;
   width: 220px;
@@ -204,6 +241,23 @@
   font-weight: 800;
   font-style: italic;
   position: absolute;
+  left: 11px;
+  top: 16px;
+  width: 195px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inicio-text:hover {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  filter:drop-shadow(0px 0px 8px);
   left: 11px;
   top: 16px;
   width: 195px;
@@ -234,6 +288,23 @@
   align-items: center;
   justify-content: center;
 }
+.entradas-text:hover {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  filter:drop-shadow(0px 0px 8px);
+  left: 11px;
+  top: 16px;
+  width: 195px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .sorteo-button {
   flex-shrink: 0;
   width: 220px;
@@ -256,6 +327,23 @@
   align-items: center;
   justify-content: center;
 }
+.sorte-text:hover {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  filter:drop-shadow(0px 0px 8px);
+  left: 11px;
+  top: 16px;
+  width: 195px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .contacto-button {
   flex-shrink: 0;
   width: 220px;
@@ -270,6 +358,23 @@
   font-weight: 800;
   font-style: italic;
   position: absolute;
+  left: 11px;
+  top: 16px;
+  width: 195px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-text:hover {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  filter:drop-shadow(0px 0px 8px);
   left: 11px;
   top: 16px;
   width: 195px;

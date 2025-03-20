@@ -94,7 +94,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   width: 1440px;
-  height: 675px;
+  height: 676px;
   position: absolute;
   left: 0px;
   top: 140px;
@@ -207,6 +207,13 @@
   height: 68px;
   position: relative;
 }
+.comprar-button:hover {
+  background: rgba(255, 166, 0, 0.829);
+  flex-shrink: 0;
+  width: 308px;
+  height: 68px;
+  position: relative;
+}
 .comprar-pase-bronce {
   color: #000000;
   text-align: center;
@@ -225,6 +232,13 @@
 }
 .comprar-button2 {
   background: rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+  width: 308px;
+  height: 68px;
+  position: relative;
+}
+.comprar-button2:hover {
+  background: rgba(44, 44, 44, 0.568);
   flex-shrink: 0;
   width: 308px;
   height: 68px;
@@ -268,6 +282,34 @@
   width: 126px;
   height: 126px;
   position: relative;
+}
+.text {
+  color: #00000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  font-style: italic;
+  position: relative;
+  width: 125px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text:hover {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  font-style: italic;
+  position: relative;
+  width: 125px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .logo-icon {
   width: 100px;
