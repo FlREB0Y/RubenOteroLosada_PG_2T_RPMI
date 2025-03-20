@@ -1,0 +1,410 @@
+.entradas-page,
+.entradas-page * {
+  box-sizing: border-box;
+}
+.entradas-page {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+}
+.footer {
+  background: #9e9e9e;
+  padding: 47px 35px 47px 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 816px;
+  overflow: hidden;
+}
+.contact-source {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 432px;
+  position: relative;
+}
+.ctext {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-LightItalic", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  position: relative;
+  align-self: stretch;
+  height: 23px;
+}
+.ttext {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-LightItalic", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  position: relative;
+  align-self: stretch;
+  height: 23px;
+}
+.icons-network {
+  display: flex;
+  flex-direction: row;
+  gap: 76px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.facebook-button {
+  flex-shrink: 0;
+  width: 112px;
+  height: 112px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.instagram-button {
+  flex-shrink: 0;
+  width: 114px;
+  height: 114px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.twitter-button {
+  flex-shrink: 0;
+  width: 101px;
+  height: 101px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.hero {
+  background: var(--d2d2d2, #d2d2d2);
+  padding: 76px 48px 76px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1440px;
+  height: 676px;
+  position: absolute;
+  left: 0px;
+  top: 140px;
+  overflow: hidden;
+}
+.comprar-images {
+  display: flex;
+  flex-direction: row;
+  gap: 37px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.bronce {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 308px;
+  height: 422px;
+  position: relative;
+  overflow: hidden;
+}
+.ptext-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 254px;
+  position: absolute;
+  left: 27px;
+  top: 258px;
+}
+.p-heding {
+  color: var(--coolgray-90, #21272a);
+  text-align: left;
+  font-family: "Roboto-CondensedBlack", sans-serif;
+  font-size: 20px;
+  line-height: 110%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.p-text {
+  color: var(--coolgray-90, #21272a);
+  text-align: left;
+  font-family: var(--body-m-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-m-font-size, 16px);
+  line-height: var(--body-m-line-height, 140%);
+  font-weight: var(--body-m-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.pimage-box {
+  background: #e2e2e2;
+  width: 308px;
+  height: 220px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-18 {
+  width: 222px;
+  height: 171px;
+  position: absolute;
+  left: 43px;
+  top: 25px;
+  object-fit: cover;
+}
+.plata {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 308px;
+  height: 422px;
+  position: relative;
+  overflow: hidden;
+}
+.oro {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 308px;
+  height: 422px;
+  position: relative;
+  overflow: hidden;
+}
+.diamante {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 308px;
+  height: 422px;
+  position: relative;
+  overflow: hidden;
+}
+.comprar-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 37px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.comprar-button {
+  background: rgba(255, 166, 0, 0.35);
+  flex-shrink: 0;
+  width: 308px;
+  height: 68px;
+  position: relative;
+}
+.comprar-button:hover {
+  background: rgba(255, 166, 0, 0.829);
+  flex-shrink: 0;
+  width: 308px;
+  height: 68px;
+  position: relative;
+}
+.comprar-pase-bronce {
+  color: #000000;
+  text-align: center;
+  font-family: "RobotoSlab-Black", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 900;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 308px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comprar-button2 {
+  background: rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+  width: 308px;
+  height: 68px;
+  position: relative;
+}
+.comprar-button2:hover {
+  background: rgba(44, 44, 44, 0.568);
+  flex-shrink: 0;
+  width: 308px;
+  height: 68px;
+  position: relative;
+}
+.comprar-button3 {
+  background: rgba(255, 234, 0, 0.35);
+  flex-shrink: 0;
+  width: 308px;
+  height: 68px;
+  position: relative;
+}
+.comprar-button4 {
+  background: rgba(0, 149, 255, 0.2);
+  flex-shrink: 0;
+  width: 308px;
+  height: 68px;
+  position: relative;
+}
+.header {
+  background: #ffffff;
+  width: 1440px;
+  height: 138px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.header-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 41px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 22px;
+  top: 6px;
+}
+.logotype {
+  flex-shrink: 0;
+  width: 126px;
+  height: 126px;
+  position: relative;
+}
+.text {
+  color: #00000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  font-style: italic;
+  position: relative;
+  width: 125px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text:hover {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  font-style: italic;
+  position: relative;
+  width: 125px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-icon {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 13px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.inicio-button {
+  flex-shrink: 0;
+  width: 220px;
+  height: 71px;
+  position: relative;
+}
+.inicio-text {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 11px;
+  top: 16px;
+  width: 195px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.entradas-button {
+  flex-shrink: 0;
+  width: 220px;
+  height: 71px;
+  position: relative;
+}
+.entradas-text {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 11px;
+  top: 16px;
+  width: 195px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sorteo-button {
+  flex-shrink: 0;
+  width: 220px;
+  height: 71px;
+  position: relative;
+}
+.sorte-text {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 11px;
+  top: 16px;
+  width: 195px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacto-button {
+  flex-shrink: 0;
+  width: 220px;
+  height: 71px;
+  position: relative;
+}
+.contact-text {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 11px;
+  top: 16px;
+  width: 195px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
