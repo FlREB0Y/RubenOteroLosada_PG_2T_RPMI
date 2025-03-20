@@ -251,8 +251,22 @@
   height: 68px;
   position: relative;
 }
+.comprar-button3:hover {
+  background: rgba(255, 231, 17, 0.76);
+  flex-shrink: 0;
+  width: 308px;
+  height: 68px;
+  position: relative;
+}
 .comprar-button4 {
   background: rgba(0, 149, 255, 0.2);
+  flex-shrink: 0;
+  width: 308px;
+  height: 68px;
+  position: relative;
+}
+.comprar-button4:hover {
+  background: rgba(13, 164, 224, 0.568);
   flex-shrink: 0;
   width: 308px;
   height: 68px;
@@ -342,6 +356,23 @@
   align-items: center;
   justify-content: center;
 }
+.inicio-text:hover {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  filter:drop-shadow(0px 0px 8px);
+  left: 11px;
+  top: 16px;
+  width: 195px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .entradas-button {
   flex-shrink: 0;
   width: 220px;
@@ -356,6 +387,23 @@
   font-weight: 800;
   font-style: italic;
   position: absolute;
+  left: 11px;
+  top: 16px;
+  width: 195px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.entradas-text:hover {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  filter:drop-shadow(0px 0px 8px);
   left: 11px;
   top: 16px;
   width: 195px;
@@ -386,6 +434,23 @@
   align-items: center;
   justify-content: center;
 }
+.sorte-text:hover {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  filter:drop-shadow(0px 0px 8px);
+  left: 11px;
+  top: 16px;
+  width: 195px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .contacto-button {
   flex-shrink: 0;
   width: 220px;
@@ -400,6 +465,23 @@
   font-weight: 800;
   font-style: italic;
   position: absolute;
+  left: 11px;
+  top: 16px;
+  width: 195px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-text:hover {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  filter:drop-shadow(0px 0px 8px);
   left: 11px;
   top: 16px;
   width: 195px;
